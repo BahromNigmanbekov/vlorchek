@@ -39,17 +39,17 @@ function Card() {
     const totalPrice = data.price * quantity;
 
     const message = `
-🛒 Yangi Booking!
+🛒 Yangi buyurtma!
 
-📦 Booking: ${data.title}
+📦 Buyurtma: ${data.title}
 🆔 ID: ${data.id}
-🔢 Booking qilingan: ${quantity} soat
-💰 1 soat Booking narx: ${data.price}.000 So'm
-💵 Jami Booking: ${totalPrice}.000 So'm
+🔢 Buyurtma qilingan: ${quantity} soat
+💰 1 Buyurtma narx: ${data.price}.000 So'm
+💵 Jami Buyurtma: ${totalPrice}.000 So'm
 
 👤 Ism: ${name}
-🕒 Vaqti: ${time}
-📅 Sana: ${date}
+👤 Familya: ${time}
+📞 Telefon: ${date}
 📍 Manzil: ${address}
 `;
 
@@ -113,7 +113,7 @@ function Card() {
                   />
                   <input
                     type="text"
-                    placeholder="Time"
+                    placeholder="surname"
                     value={time}
                     onChange={(e) => setTime(e.target.value)}
                   />
