@@ -17,8 +17,8 @@ function Card() {
 
   const [quantity, setQuantity] = useState(1);
 
-  const BOT_TOKEN = "8700685048:AAEF0I0WWPwYQ5s8vVTZBejZfffReVqnA1E";
-  const CHAT_ID = "8398715237";
+  const BOT_TOKEN = "8276293116:AAE6qc7vAvz6FXjIYKkmYl-0KLFtZ41G1wQ";
+  const CHAT_ID = "6877805958";
 
   useEffect(() => {
     fetch(`https://69cdc87a33a09f831b7c872b.mockapi.io/api/v2/product/${id}`)
@@ -99,7 +99,7 @@ function Card() {
                 </div>
 
                 <button className="buyBtn" onClick={() => setShowForm(true)}>
-                  Booking
+                  Buy
                 </button>
               </div>
 
@@ -112,14 +112,14 @@ function Card() {
                     onChange={(e) => setName(e.target.value)}
                   />
                   <input
-                    type="time"
+                    type="text"
                     placeholder="Time"
                     value={time}
                     onChange={(e) => setTime(e.target.value)}
                   />
                   <input
-                    type="date"
-                    placeholder="Date"
+                    type="text"
+                    placeholder="phone number"
                     value={date}
                     onChange={(e) => setDate(e.target.value)}
                   />

@@ -11,8 +11,8 @@ function Checkout() {
     if (sending) return;
     setSending(true);
 
-    const botToken = "8630280247:AAGEQhL4Lrcz0yGuHZXyidmF8rrPW_vhd3s";
-    const chatId = "8398715237";
+    const botToken = "8276293116:AAE6qc7vAvz6FXjIYKkmYl-0KLFtZ41G1wQ";
+    const chatId = "6877805958";
 
     let message = "✅ New Order!\n\n";
     cart.forEach((item) => {
