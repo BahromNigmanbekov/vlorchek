@@ -1,0 +1,154 @@
+.sectionTop {
+  width: 100%;
+}
+
+.sl{
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  margin-bottom: 70px;
+}
+
+.sectionTopCarsList {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 40px;
+}
+
+.sectionTopCartItem {
+  width: 33%;
+  background-color: #f3f5f7;
+  display: flex;
+  align-items: center;
+  row-gap: 15px;
+  justify-content: center;
+  flex-direction: column;
+  height: 170px;
+  padding: 16px 32px;
+  border-radius: 12px;
+}
+
+.sectionTopCartItem > h3 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 16px;
+  color: #6c7275;
+}
+
+.salom img{
+  width: 520px;
+  height: 520px;
+
+}
+
+.sectionTopCartItem > p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  width: 75%;
+  color: #141718;
+}
+
+.contactUsBigText {
+  font-weight: 500;
+  font-size: 60px;
+  line-height: 44px;
+  letter-spacing: -0.4px;
+  margin-bottom: 14px;
+  color: #121212;
+  margin-top: 70px;
+}
+
+.sectionTopCartItemImgs {
+  font-size: 30px;
+}
+
+.salom img {
+  max-width: 100%;
+  height: auto;
+}
+.sectionBottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;   
+  margin-top: 40px;
+}
+
+.sectionBottomForm {
+  width: 49%;
+  row-gap: 24px;
+  margin-bottom: 30px;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.sectionFormContentsBox {
+  width: 100%;
+}
+
+.sectionFormContentsBox > textarea {
+  width: 100%;
+  color: #6c7275;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  border-radius: 6px;
+  resize: none; 
+  border: 1px solid #cbcbcb;
+  padding: 16px;
+}
+
+.sectionFormContentsBox > input {
+  padding: 7px 16px;
+  color: #6c7275;
+  font-weight: 400;
+  font-size: 16px;  
+  line-height: 26px;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+  width: 100%;
+}
+
+.sectionBottomBtn {
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  width: 40%;
+  padding: 12px 35px;
+  border: none;
+  letter-spacing: -0.4px;
+  background-color: #141718;
+  border-radius: 8px;
+  text-align: center;
+}
+
+
+@media (max-width: 768px) {
+  .sectionTopCartItem {
+    width: 90%;
+  }
+
+  .sectionTopCarsList {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sectionBottomForm {
+    width: 90%;
+  }
+
+  .sectionBottom {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .sectionBottomBtn{
+    width: 100%;
+  }
+}
