@@ -52,18 +52,12 @@
   }
 
   .simlpy {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     text-align: center;
     font-size: 40px;
     width: 100%;
   }
 
   .simplyText {
-    /* display: flex;
-    align-items: center;
-    justify-content: center;*/
     text-align: center;
     width: 100%;
   }
