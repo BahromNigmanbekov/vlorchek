@@ -66,7 +66,6 @@ a {
     padding: 10px;
 }
 
-/* Men qo‘shgan elementlar */
 .my-basket-btn {
     position: relative;
     display: flex;
@@ -104,7 +103,7 @@ a {
     border: 1px solid #fff;
 }
 
-/* DEFAULT (DESKTOP) */
+
 .burger {
     display: none;
 }
@@ -115,7 +114,6 @@ a {
 
 @media (max-width: 768px) {
 
-    /* HEADER STYLING */
     .header {
         width: 90%;
         margin-left: 5%;
@@ -125,14 +123,13 @@ a {
         margin-top: 0;
     }
 
-    /* Desktop icons yashirilsin */
     .buttons .btn-search,
     .buttons .btn-user,
     .buttons .my-basket-btn {
         display: none;
     }
 
-    /* Burger icon ko‘rsatilsin */
+
     .burger {
         display: block;
         font-size: 24px;
@@ -141,7 +138,7 @@ a {
         cursor: pointer;
     }
 
-    /* Mobile menu default hidden */
+
     .ul-list {
         display: none;
         flex-direction: column;
@@ -156,12 +153,12 @@ a {
         z-index: 999;
     }
 
-    /* Burger bosilganda menu chiqadi */
+
     .ul-list.active {
         display: flex;
     }
 
-    /* Mobile-only items (icon + name) ko‘rsatilsin */
+
     .mobile-only {
         display: flex;
         align-items: center;
