@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherish&display=swap');
+
+.simlpy {
+  font-weight: 500;
+  font-size: 72px;
+  color: #141718;
+  line-height: 1.1;
+  letter-spacing: -2px;
+  text-align: start;
+}
+
+.simplyBox {
+  display: flex;
+  width: 100%;
+  justify-self: center;
+  align-items: center;
+  padding: 40px 0;
+  justify-content: space-between;
+}
+.brr{
+  font-family: 'Cherish', cursive;
+}
+
+.simplyText {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: start;
+  width: 35%;
+  color: #6c7275;
+}
+
+.simplySpan {
+  font-weight: 600;
+  font-size: 16px;
+  color: #343839;
+  padding-right: 5px;
+}
+
+.section {
+  width: 100%;
+  padding: 0 20px;
+}
+
+@media (max-width: 900px) {
+  .simplyBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    row-gap: 30px;
+  }
+
+  .simlpy {
+    /* display: flex;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+  }
+
+  .simplyText {
+    /* display: flex;
+    align-items: center;
+    justify-content: center;*/
+    text-align: center;
+    width: 100%;
+  }
+
+  .br {
+    display: none;
+  }
+}
+
+@media (max-width: 650px) {
+  .br {
+    display: block;
+  }
+
+  .simlpy {
+    text-align: start;
+    font-size: 40px;
+  }
+
+  .simplyBox {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+    row-gap: 30px;
+  }
+
+  .simplyText {
+    width: 90%;
+    text-align: start;
+  }
+}
