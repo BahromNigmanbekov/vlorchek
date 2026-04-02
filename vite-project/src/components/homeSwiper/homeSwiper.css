@@ -1,0 +1,88 @@
+.swiper {
+  width: 100%;
+  height: 640px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 80px;
+  border-radius: 12px;
+}
+
+.swiper-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiperNext,
+.swiperPrev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: transparent;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 11;
+}
+
+.swiperNext > img,
+.swiperPrev > img {
+  width: 85px;
+  height: 85px;
+}
+
+.swiperNext {
+  right: 10px;
+}
+
+.swiperPrev {
+  left: 10px;
+}
+
+@media (max-width: 1020px) {
+  .swiper {
+    height: 500px;
+  }
+}
+
+@media (max-width: 650px) {
+  .swiper {
+    height: 380px;
+  }
+
+  .swiperNext > img,
+  .swiperPrev > img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .swiperNext {
+    right: 8px;
+  }
+
+  .swiperPrev {
+    left: 8px;
+  }
+}
+
+@media (max-width: 450px) {
+  .swiper {
+    height: 300px;
+  }
+
+  .swiperNext > img,
+  .swiperPrev > img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .swiperNext {
+    right: 5px;
+  }
+
+  .swiperPrev {
+    left: 5px;
+  }
+}
